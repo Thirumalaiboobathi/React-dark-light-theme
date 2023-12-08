@@ -1,4 +1,4 @@
-import './App.css';
+/*import './App.css';
 import NavBar from './components/navbar';
 
 function App() {
@@ -11,4 +11,22 @@ function App() {
   );
 }
 
+export default App;*/
+
+// App.js
+import React from 'react';
+
+
+
+import NavBar from './components/navbar';
+
+const App = () => {
+  return (
+  
+      <NavBar/>
+
+  );
+};
+
 export default App;
+
